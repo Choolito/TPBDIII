@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.AsistenciaProduccion"
+  DTS:DTSID="{63017F79-E184-4B06-84DF-D82F3D9132D1}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=AsistenciaProduccion;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-DW-BD3-2-{63017F79-E184-4B06-84DF-D82F3D9132D1}localhost.AsistenciaProduccion;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

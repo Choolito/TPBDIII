@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.FacturacionVentas"
+  DTS:DTSID="{80F1F91D-53F6-4692-AB4D-6ED6087CE1D8}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=FacturacionVentas;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-DW-BD3-2-{80F1F91D-53F6-4692-AB4D-6ED6087CE1D8}localhost.FacturacionVentas;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
